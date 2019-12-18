@@ -1,0 +1,11 @@
+import os.path
+group = [Glob('*.c')]
+# group = []
+path = [
+    os.path.abspath('.'),
+    os.path.abspath('./include'),
+    os.path.abspath('./config')
+
+]
+group += path
+Return('group')

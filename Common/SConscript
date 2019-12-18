@@ -1,0 +1,7 @@
+import os.path
+group = [Glob('Minimal/*.c')]
+path = [
+    os.path.abspath('./include')
+]
+group += path
+Return('group')

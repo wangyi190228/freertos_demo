@@ -1,0 +1,7 @@
+import os.path
+group = [Glob('*.c')]
+path = [
+    os.path.abspath('.')
+]
+group += path
+Return('group')
