@@ -1,2 +1,2 @@
 # freertos_demo
- freertos demo with  scons 
+ freertos demo with scons 

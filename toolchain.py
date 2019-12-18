@@ -3,7 +3,7 @@ import sys
 
 # toolchains options
 # ARCH = 'arm'
-# CPU = 'cortex-m3'
+CPU = 'cortex-m3'
 ARCH = 'PC'
 CPU = 'generic'
 
