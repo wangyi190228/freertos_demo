@@ -160,6 +160,7 @@ int main( void )
 	of this file. */
 	#if ( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	{
+		printf( "This is a test!" );
 		main_blinky();
 	}
 	#else
