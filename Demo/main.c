@@ -152,6 +152,7 @@ int main( void )
 		configASSERT() is called. */
 		printf( "\r\nTrace started.\r\nThe trace will be dumped to disk if a call to configASSERT() fails.\r\n" );
 		printf( "Uncomment the call to kbhit() in this file to also dump trace with a key press.\r\n" );
+		printf( "Uncomment the call to kbhit() in this file to also dump trace with a key press.\r\n" );
 		uiTraceStart();
 	}
 	#endif
@@ -161,6 +162,8 @@ int main( void )
 	#if ( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	{
 		main_blinky();
+		printf( "Uncomment the call to kbhit() in this file to also dump trace with a key press.\r\n" );
+		printf( "Uncomment the call to kbhit() in this file to also dump trace with a key press.\r\n" );
 	}
 	#else
 	{
