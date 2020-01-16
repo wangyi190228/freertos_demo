@@ -162,6 +162,7 @@ int main( void )
 	{
 		printf( "This is a test!" );
 		main_blinky();
+		printf( "This is a test2!" );
 	}
 	#else
 	{
