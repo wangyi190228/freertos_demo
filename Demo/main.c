@@ -160,6 +160,7 @@ int main( void )
 	of this file. */
 	#if ( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	{
+		printf( "Uncomment the call to kbhit() in this file to also dump trace with a key press.\r\n" );
 		main_blinky();
 	}
 	#else
